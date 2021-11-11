@@ -599,7 +599,7 @@ section {
 /*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -650,12 +650,12 @@ section {
 
 .services .icon-box:hover .title a {
   color: #ffb727;
-}
+} */
 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials {
+/* .testimonials {
   padding: 80px 0;
   background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
@@ -750,7 +750,7 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # My Portfolio
@@ -1049,6 +1049,15 @@ section {
   margin-bottom: 0;
 }
 
+.contact .info-box a {
+  color: #777777;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info-box a:hover {
+  color: #ffb727;
+}
+
 .contact .social-links {
   margin-top: 15px;
   display: flex;
@@ -1059,7 +1068,7 @@ section {
   font-size: 18px;
   display: inline-block;
   color: #687683;
-  line-height: 1;
+  line-height: 0;
   margin: 0 8px;
   transition: 0.3s;
   padding: 14px;
